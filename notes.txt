@@ -1,0 +1,41 @@
+notes
+
+this file I will add some notes about lectures I'm taking 
+
+Git 
+
+Git is a distributed version control system where I can keep track of the workflow of my projects, specially for source
+code management. 
+
+What can I do with Git? 
+
+- Create
+- Save 
+- Edit
+
+But since it's recursive, it's a lifecycle. I repeat this process over and over, with every change made. 
+When commiting a change, I have to be as precise as possible, since it's a commentary about something I did. 
+
+But what about doing it with others in a collaborative project? This is where Git shines. I can see when, who and why 
+something was changed. So in a big project where there's dozens of people working in the same directory, or the same file,
+it's easier to see what's happening. 
+
+Here's some basic configuration command lines:
+
+- git config --global user.name 'YourName' // to register the author of the changes in this local repository
+- git config --global user.email 'youremail@mail.com' // to register the author's email 
+
+Creating repositories:
+
+- git init name-of-project // naming the project
+- git clone url //  cloning a repository in github by copy and paste a url
+
+Making basic changes:
+
+- git status // output the status of the files in the repository
+- git diff // show differences in the file that still haven't been commited 
+- git add name-of-file // do a snapshot of the file, putting it in staging state
+- git reset name-of-file // unselect the file but preserve the content	
+- git commit -m 'descriptive message' // record permanently the snapshot of the file in version log
+
+																																								

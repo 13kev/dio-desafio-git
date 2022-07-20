@@ -19,3 +19,4 @@ This is for my project at bootcamp Santander Fullstack Developer from DIO learni
 - [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 - [GitHub Docs](https://docs.github.com/pt)
 - [Git Cheat Sheet PT-BR](https://training.github.com/downloads/pt_BR/github-git-cheat-sheet.pdf)
+- [Git Docs](https://git-scm.com/doc) 
